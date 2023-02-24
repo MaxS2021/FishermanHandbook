@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FishermanHandbook</string>
+    <string name="fish">Рыбы</string>
+    <string name="nazhivka">Наживки</string>
+    <string name="snasti">Снасти</string>
+    <string name="history">Истории</string>
+    <string name="drawerloyaut">DrawerLoyaut</string>
+    <string name="navigationview">NavigationView</string>
+    <string name="image_fishbook">Image_fishbook</string>
+    <string name="tv_header_menu">Записная книжка рыбака</string>
 </resources>

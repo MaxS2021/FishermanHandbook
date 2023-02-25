@@ -23,24 +23,50 @@
             android:icon="@drawable/ic_history"/>
     </group>
 
-    <item android:title="Раздел2"></item>
-    <group android:checkableBehavior="single">
+    <item android:title="Раздел2">
+        <menu>
+            <item android:id="@+id/idFish1"
+                android:title="@string/fish"
+                android:icon="@drawable/ic_fish"/>
 
-        <item android:id="@+id/idFish1"
-            android:title="@string/fish"
-            android:icon="@drawable/ic_fish"/>
+            <item android:id="@+id/idNazh1"
+                android:title="@string/nazhivka"
+                android:icon="@drawable/ic_nazhivka"/>
 
-        <item android:id="@+id/idNazh1"
-            android:title="@string/nazhivka"
-            android:icon="@drawable/ic_nazhivka"/>
+            <item android:id="@+id/idSnasti1"
+                android:title="@string/snasti"
+                android:icon="@drawable/ic_snasti"/>
 
-        <item android:id="@+id/idSnasti1"
-            android:title="@string/snasti"
-            android:icon="@drawable/ic_snasti"/>
+            <item android:id="@+id/idHist1"
+                android:title="@string/history"
+                android:icon="@drawable/ic_history"/>
 
-        <item android:id="@+id/idHist1"
-            android:title="@string/history"
-            android:icon="@drawable/ic_history"/>
-    </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Раздел3">
+        <menu>
+            <item android:id="@+id/idFish2"
+                android:title="@string/fish"
+                android:icon="@drawable/ic_fish"/>
+
+            <item android:id="@+id/idNazh2"
+                android:title="@string/nazhivka"
+                android:icon="@drawable/ic_nazhivka"/>
+
+            <item android:id="@+id/idSnasti2"
+                android:title="@string/snasti"
+                android:icon="@drawable/ic_snasti"/>
+
+            <item android:id="@+id/idHist2"
+                android:title="@string/history"
+                android:icon="@drawable/ic_history"/>
+
+        </menu>
+
+    </item>
+
+
 
 </menu>

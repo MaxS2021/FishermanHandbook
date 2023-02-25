@@ -13,12 +13,12 @@
         android:layout_marginTop="8dp"
         android:text="@string/tv_header_menu"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imHeader"
+        app:layout_constraintTop_toBottomOf="@+id/imHeader"
         tools:ignore="TextContrastCheck" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imHeader"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="32dp"
@@ -27,5 +27,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.228"
-        app:srcCompat="@drawable/ic_fishbook" />
+        app:srcCompat="@drawable/fishmenbook_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

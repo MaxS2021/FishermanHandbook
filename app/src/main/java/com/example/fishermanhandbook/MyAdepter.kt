@@ -1,6 +1,8 @@
 package com.example.fishermanhandbook
 
 import android.content.Context
+import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +10,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import kotlin.math.min
 
 class MyAdepter(listArray: ArrayList<ListItem>, context: Context): RecyclerView.Adapter<MyAdepter.ViewHolder>() {
     var listArrayR = listArray
@@ -19,10 +22,18 @@ class MyAdepter(listArray: ArrayList<ListItem>, context: Context): RecyclerView.
 
         fun bind(listIt: ListItem, context: Context) {
             tvTitle.text = listIt.titleText
-            tvContent.text = listIt.contentText
+            val lensub = min(50,listIt.contentText.length )
+            val textCont = listIt.contentText.substring(0, lensub) + "..."
+            tvContent.text = textCont
             imV.setImageResource(listIt.image_id)
+            Log.d("AppLog", "TexCont $textCont")
             itemView.setOnClickListener(){
                 Toast.makeText(context, "Preset : ${tvTitle.text}", Toast.LENGTH_SHORT).show()
+                val inTent = Intent(context, ContentActivity::class.java)
+                inTent.putExtra("title", tvTitle.text.toString())
+                inTent.putExtra("content", listIt.contentText)
+                inTent.putExtra("imId", listIt.image_id)
+                context.startActivity(inTent)
             }
         }
 
@@ -40,5 +51,11 @@ class MyAdepter(listArray: ArrayList<ListItem>, context: Context): RecyclerView.
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         var listitem = listArrayR[position]
         holder.bind(listitem, contextR)
+    }
+
+    fun updateAdapter(listArry: List<ListItem>) {
+        listArrayR.clear()
+        listArrayR.addAll(listArry)
+        notifyDataSetChanged()
     }
 }

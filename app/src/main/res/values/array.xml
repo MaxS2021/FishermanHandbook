@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fish">
+        <item>Сом</item>
+        <item>Щука</item>
+        <item>Карась</item>
+        <item>Тунец</item>
+    </string-array>
+    <string-array name="fish_content">
+        <item>Сом skjdhjaksdhjkasd assadasdasdas</item>
+        <item>Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd</item>
+        <item>Карась asjdasjhd asjdhajsdh ajshdjashd ajshdjashd ja sjdhjashd jahsd j</item>
+        <item>Тунец  sajhasjdhas asjdhasjd asjhas sj sjsjsjs sjjs sjshdjj sjhd </item>
+    </string-array>
+    <array name="fish_image_array">
+        <item>@drawable/som</item>
+        <item>@drawable/shuka</item>
+        <item>@drawable/karas</item>
+        <item>@drawable/tunec</item>
+    </array>
+
+
+    <string-array name="nazhivah">
+        <item>Червь</item>
+        <item>Мотыль</item>
+        <item>Опарышь</item>
+        <item>Мясо</item>
+    </string-array>
+    <string-array name="nazhiva_content">
+        <item>Сом skjdhjaksdhjkasd assadasdasdas</item>
+        <item>Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+        Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+            Щука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasdЩука asdksadj sjasd askdjkasdj askdjkasjd kasjdkasjd kasjd kasd
+
+
+        </item>
+        <item>Карась asjdasjhd asjdhajsdh ajshdjashd ajshdjashd ja sjdhjashd jahsd j</item>
+        <item>Тунец  sajhasjdhas asjdhasjd asjhas sj sjsjsjs sjjs sjshdjj sjhd </item>
+    </string-array>
+    <array name="nazhiva_image_array">
+        <item>@drawable/cherv</item>
+        <item>@drawable/motil</item>
+        <item>@drawable/oparish</item>
+        <item>@drawable/myaso</item>
+    </array>
+
+
+
+
+
+
+</resources>
